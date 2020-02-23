@@ -9,7 +9,7 @@ pipeline{
      stage('test'){
       steps{
         echo "Testing now"
-        bat('java -version)
+        bat('java -version')
       }
      }
      stage('deploy'){
